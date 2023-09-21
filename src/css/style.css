@@ -1,16 +1,16 @@
 main{
     height: 100vh;
     width: 100vw;
-    background-image: url(./src/img/bg-repeat.jpg) ;
+    background-image: url(../src/img/bg-repeat.jpg) ;
     background-repeat: repeat;
     background-size:contain;
 }
 
 .conteudo-geral {
     display: flex;
-    justify-content: center; /* Para alinhar os elementos verticalmente */
-    align-items: center; /* Para alinhar os elementos horizontalmente */
-    height: 100%; /* Isso fará com que a div ocupe a altura total da janela de visualização (viewport) */
+    justify-content: center; 
+    align-items: center;
+    height: 100%; 
 }
 
 .conteudo-geral .texto-auxiliar{
