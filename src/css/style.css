@@ -1,0 +1,97 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/src/img/bg-repeat.jpg) ;
+    background-repeat: repeat;
+    background-size:contain;
+}
+
+.conteudo-geral {
+    display: flex;
+    justify-content: center; /* Para alinhar os elementos verticalmente */
+    align-items: center; /* Para alinhar os elementos horizontalmente */
+    height: 100%; /* Isso fará com que a div ocupe a altura total da janela de visualização (viewport) */
+}
+
+.conteudo-geral .texto-auxiliar{
+    width: 300px;
+    height: 111px;
+    color: #fff;
+   
+}
+
+.conteudo-geral .texto-auxiliar h1{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin-bottom: 11px;
+}
+.conteudo-geral .texto-auxiliar p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+}
+
+
+.conteudo-geral .formulario{
+    width: 400px;
+    height: 428px;
+    margin:12px 50px;
+    background-color: #fff;
+}
+
+.conteudo-geral .formulario input{
+
+width: 350px;
+height: 35.11px;
+margin: 10px 15px;
+border-radius: 5px;
+}
+
+.conteudo-geral .formulario .erro {
+    border: red solid 2px;
+}
+.conteudo-geral .formulario textarea{
+    width: 350px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+    resize: none;
+   
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    color: 
+    #A8A8A8;
+}
+
+.formulario .nao-preenchido{
+    color: red;
+    font-size: 12px;
+    margin: 0px 20px;
+    display: none;
+}
+
+.formulario .preenchido{
+    border: #3CCC87 solid 2px;
+
+}
+
+
+.formulario .aviso{
+    font-size: 18px;
+    font-weight: 400;
+  margin: 0px 15px
+}
+
+.formulario .btn{
+    width: 298px;
+    height: 40px;
+    background-color: #3CCC87;
+    color: #fff;
+    border-radius: 5px;
+    margin:15px 45px;
+}
